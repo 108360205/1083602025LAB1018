@@ -1,0 +1,36 @@
+﻿已經開始建置於 2017/10/3/週二 下午 03:09:57。
+     1>節點 2 (Build 目標) 上的專案 "C:\c_code\Ch2_Lab1-2\Ch2_Lab1-2\Ch2_Lab1-2\Ch2_Lab1-2.vcxproj"。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(367,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\c_code\Ch2_Lab1-2\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"..\..\temp\debug\\" /Fd"..\..\temp\debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\source\function_1.c ..\..\source\function_2.c ..\..\source\function_3.c ..\..\source\function_4.c ..\..\source\function_5.c ..\..\source\Main.c
+         Main.c
+         function_5.c
+     1>c:\c_code\ch2_lab1-2\source\function_5.c(12): warning C4101: 'temp2': 未參考的區域變數
+         function_4.c
+         function_3.c
+         function_2.c
+     1>c:\c_code\ch2_lab1-2\source\function_2.c(10): warning C4101: 'temp2': 未參考的區域變數
+     1>c:\c_code\ch2_lab1-2\source\function_2.c(9): warning C4101: 'temp': 未參考的區域變數
+         function_1.c
+     1>c:\c_code\ch2_lab1-2\source\function_1.c(10): warning C4101: 'temp2': 未參考的區域變數
+     1>c:\c_code\ch2_lab1-2\source\function_1.c(9): warning C4101: 'temp': 未參考的區域變數
+         正在產生程式碼...
+     1>c:\c_code\ch2_lab1-2\source\function_1.c(23): warning C4716: 'Han_Xin_1': 必須傳回值
+     1>c:\c_code\ch2_lab1-2\source\function_2.c(24): warning C4716: 'Han_Xin_2': 必須傳回值
+     1>c:\c_code\ch2_lab1-2\source\function_3.c(35): warning C4716: 'Han_Xin_3': 必須傳回值
+     1>c:\c_code\ch2_lab1-2\source\function_4.c(37): warning C4716: 'Han_Xin_4': 必須傳回值
+     1>c:\c_code\ch2_lab1-2\source\function_5.c(41): warning C4716: 'Han_Xin_5': 必須傳回值
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\temp\debug\Ch2_Lab1-2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"..\..\temp\debug\Ch2_Lab1-2.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\temp\debug\Ch2_Lab1-2.lib" /MACHINE:X86 ..\..\temp\debug\function_1.obj
+         ..\..\temp\debug\function_2.obj
+         ..\..\temp\debug\function_3.obj
+         ..\..\temp\debug\function_4.obj
+         ..\..\temp\debug\function_5.obj
+         ..\..\temp\debug\Main.obj
+         Ch2_Lab1-2.vcxproj -> C:\c_code\Ch2_Lab1-2\Ch2_Lab1-2\Ch2_Lab1-2\..\..\temp\debug\Ch2_Lab1-2.exe
+     1>專案 "C:\c_code\Ch2_Lab1-2\Ch2_Lab1-2\Ch2_Lab1-2\Ch2_Lab1-2.vcxproj" (Build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:00.92
